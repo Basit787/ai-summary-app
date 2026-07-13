@@ -5,10 +5,17 @@ export interface UploadResponse {
   message: string
 }
 
+export type DocumentStatus = "UPLOADED" | "PROCESSING" | "COMPLETED" | "FAILED"
+
 export interface Document {
   id: string
   filename: string
-  status: string
+  s3_key: string
+  s3_url: string
+  status: DocumentStatus
+  summary: string | null
+  created_at: string
+  updated_at: string
 }
 
 export const uploadDocument = async (file: File): Promise<UploadResponse> => {

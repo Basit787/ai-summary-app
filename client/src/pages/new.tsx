@@ -1,28 +1,28 @@
-import { useRef } from "react"
-import { useForm } from "react-hook-form"
-import { z } from "zod"
-import { zodResolver } from "@hookform/resolvers/zod"
+import { zodResolver } from "@hookform/resolvers/zod";
+import { useState } from "react";
+import { useForm } from "react-hook-form";
+import { z } from "zod";
 
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+import { Button } from "@/components/ui/button";
 import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog"
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogHeader,
+    DialogTitle,
+    DialogTrigger,
+} from "@/components/ui/dialog";
 import {
-  Field,
-  FieldDescription,
-  FieldGroup,
-  FieldLabel,
-  FieldSet,
-  FieldLegend,
-} from "@/components/ui/field"
+    Field,
+    FieldDescription,
+    FieldGroup,
+    FieldLabel,
+    FieldLegend,
+    FieldSet,
+} from "@/components/ui/field";
+import { Input } from "@/components/ui/input";
 
-import { useUploadDocument } from "./api/hook"
+import { useUploadDocument } from "./api/hook";
 
 const MAX_FILE_SIZE = 5 * 1024 * 1024
 
@@ -42,7 +42,7 @@ const schema = z.object({
 type FormValues = z.infer<typeof schema>
 
 export default function UploadTextFileDialog() {
-  const inputRef = useRef<HTMLInputElement>(null)
+  const [openDialog, setOpenDialog] = useState<boolean>(false)
 
   const { mutate: uploadMutation, isPending: isUploadPending } =
     useUploadDocument()
@@ -67,18 +67,15 @@ export default function UploadTextFileDialog() {
     uploadMutation(values.file, {
       onSuccess: () => {
         reset()
-
-        if (inputRef.current) {
-          inputRef.current.value = ""
-        }
+        setOpenDialog(false)
       },
     })
   }
 
   return (
-    <Dialog>
+    <Dialog open={openDialog} onOpenChange={setOpenDialog}>
       <DialogTrigger>
-        <Button>Add File</Button>
+        <Button onClick={() => setOpenDialog(true)}>Add File</Button>
       </DialogTrigger>
 
       <DialogContent className="sm:max-w-lg">
@@ -104,7 +101,6 @@ export default function UploadTextFileDialog() {
                   <FieldLabel htmlFor="file">Text File</FieldLabel>
 
                   <Input
-                    ref={inputRef}
                     id="file"
                     type="file"
                     accept=".txt"
@@ -141,17 +137,7 @@ export default function UploadTextFileDialog() {
                 {isUploadPending ? "Uploading..." : "Upload"}
               </Button>
 
-              <Button
-                type="button"
-                variant="outline"
-                onClick={() => {
-                  reset()
-
-                  if (inputRef.current) {
-                    inputRef.current.value = ""
-                  }
-                }}
-              >
+              <Button type="button" variant="outline" onClick={() => reset()}>
                 Reset
               </Button>
             </Field>

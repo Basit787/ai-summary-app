@@ -7,3 +7,4 @@ class Config:
     AWS_SECRET_ACCESS_KEY = config("AWS_SECRET_ACCESS_KEY")
     AWS_REGION = config("AWS_REGION")
     AWS_BUCKET_NAME = config("AWS_BUCKET_NAME")
+    ENDPOINT_URL = config("ENDPOINT_URL")
