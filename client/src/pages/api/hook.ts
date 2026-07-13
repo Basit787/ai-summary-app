@@ -1,0 +1,31 @@
+import { useMutation, useQuery } from "@tanstack/react-query"
+import { AxiosError } from "axios"
+import { toast } from "sonner"
+import { getDocuments, uploadDocument } from "./api"
+import { queryClient } from "@/lib/query-client";
+
+export const useUploadDocument = () => {
+  return useMutation({
+    mutationFn: uploadDocument,
+    onSuccess: (data) => {
+      toast.success(data.message ?? "Document uploaded successfully.")
+      queryClient.invalidateQueries({
+        queryKey: ["documents"],
+      })
+    },
+    onError: (error: AxiosError<{ message?: string }>) => {
+      toast.error(
+        error.response?.data?.message ??
+          error.message ??
+          "Failed to upload document."
+      )
+    },
+  })
+}
+
+export const useDocuments = () => {
+  return useQuery({
+    queryKey: ["documents"],
+    queryFn: getDocuments,
+  })
+}
