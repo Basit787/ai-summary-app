@@ -1,4 +1,4 @@
-import { apiClient } from "@/lib/axios";
+import { apiClient } from "@/lib/axios"
 
 export interface UploadResponse {
   id: string
@@ -41,6 +41,20 @@ export const uploadDocument = async (file: File): Promise<UploadResponse> => {
 export const getDocuments = async (): Promise<Document[]> => {
   try {
     const { data } = await apiClient.get<Document[]>("/documents")
+    return data
+  } catch (error) {
+    console.error(error)
+    throw error
+  }
+}
+
+export const deleteDocument = async (
+  id: string
+): Promise<{ message: string }> => {
+  try {
+    const { data } = await apiClient.delete<{ message: string }>(
+      `/documents/${id}`
+    )
     return data
   } catch (error) {
     console.error(error)

@@ -1,0 +1,1320 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "pformat",
+        "importPath": "pprint",
+        "description": "pprint",
+        "isExtraImport": true,
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "jmespath",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
+        "label": "exceptions",
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "isExtraImport": true,
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "BackgroundTasks",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "decouple",
+        "description": "decouple",
+        "isExtraImport": true,
+        "detail": "decouple",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "core.config",
+        "description": "core.config",
+        "isExtraImport": true,
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "core.config",
+        "description": "core.config",
+        "isExtraImport": true,
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "core.config",
+        "description": "core.config",
+        "isExtraImport": true,
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "core.config",
+        "description": "core.config",
+        "isExtraImport": true,
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "boto3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "boto3",
+        "description": "boto3",
+        "detail": "boto3",
+        "documentation": {}
+    },
+    {
+        "label": "BotoCoreError",
+        "importPath": "botocore.exceptions",
+        "description": "botocore.exceptions",
+        "isExtraImport": true,
+        "detail": "botocore.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ClientError",
+        "importPath": "botocore.exceptions",
+        "description": "botocore.exceptions",
+        "isExtraImport": true,
+        "detail": "botocore.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ClientError",
+        "importPath": "botocore.exceptions",
+        "description": "botocore.exceptions",
+        "isExtraImport": true,
+        "detail": "botocore.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "core.database",
+        "description": "core.database",
+        "isExtraImport": true,
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "core.database",
+        "description": "core.database",
+        "isExtraImport": true,
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "core.database",
+        "description": "core.database",
+        "isExtraImport": true,
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "core.database",
+        "description": "core.database",
+        "isExtraImport": true,
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "core.database",
+        "description": "core.database",
+        "isExtraImport": true,
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "core.database",
+        "description": "core.database",
+        "isExtraImport": true,
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "BaseRepository",
+        "importPath": "core.base_repo",
+        "description": "core.base_repo",
+        "isExtraImport": true,
+        "detail": "core.base_repo",
+        "documentation": {}
+    },
+    {
+        "label": "BaseRepository",
+        "importPath": "core.base_repo",
+        "description": "core.base_repo",
+        "isExtraImport": true,
+        "detail": "core.base_repo",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "routers.document_upload",
+        "description": "routers.document_upload",
+        "isExtraImport": true,
+        "detail": "routers.document_upload",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentStatus",
+        "importPath": "routers.document_upload.schema",
+        "description": "routers.document_upload.schema",
+        "isExtraImport": true,
+        "detail": "routers.document_upload.schema",
+        "documentation": {}
+    },
+    {
+        "label": "llm_helper",
+        "importPath": "helpers",
+        "description": "helpers",
+        "isExtraImport": true,
+        "detail": "helpers",
+        "documentation": {}
+    },
+    {
+        "label": "s3_helper",
+        "importPath": "helpers",
+        "description": "helpers",
+        "isExtraImport": true,
+        "detail": "helpers",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_helper",
+        "importPath": "helpers",
+        "description": "helpers",
+        "isExtraImport": true,
+        "detail": "helpers",
+        "documentation": {}
+    },
+    {
+        "label": "s3_helper",
+        "importPath": "helpers",
+        "description": "helpers",
+        "isExtraImport": true,
+        "detail": "helpers",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "sqlalchemy.dialects.postgresql",
+        "description": "sqlalchemy.dialects.postgresql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects.postgresql",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "document_router",
+        "importPath": "routers.document_upload.route",
+        "description": "routers.document_upload.route",
+        "isExtraImport": true,
+        "detail": "routers.document_upload.route",
+        "documentation": {}
+    },
+    {
+        "label": "summary_router",
+        "importPath": "routers.ai_summary.route",
+        "description": "routers.ai_summary.route",
+        "isExtraImport": true,
+        "detail": "routers.ai_summary.route",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "routers.document_upload.model",
+        "description": "routers.document_upload.model",
+        "isExtraImport": true,
+        "detail": "routers.document_upload.model",
+        "documentation": {}
+    },
+    {
+        "label": "router_api",
+        "importPath": "routers.router",
+        "description": "routers.router",
+        "isExtraImport": true,
+        "detail": "routers.router",
+        "documentation": {}
+    },
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "create_tables",
+        "importPath": "utils.init_db",
+        "description": "utils.init_db",
+        "isExtraImport": true,
+        "detail": "utils.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "client.node_modules..pnpm.flat-cache@4.0.1.node_modules.flatted.python.flatted",
+        "description": "client.node_modules..pnpm.flat-cache@4.0.1.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i",
+        "detail": "client.node_modules..pnpm.flat-cache@4.0.1.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "client.node_modules..pnpm.flat-cache@4.0.1.node_modules.flatted.python.flatted",
+        "description": "client.node_modules..pnpm.flat-cache@4.0.1.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i\ndef _object_keys(value):\n    for key in value:\n        yield key\ndef _is_array(value):",
+        "detail": "client.node_modules..pnpm.flat-cache@4.0.1.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "client.node_modules..pnpm.flat-cache@4.0.1.node_modules.flatted.python.flatted",
+        "description": "client.node_modules..pnpm.flat-cache@4.0.1.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "client.node_modules..pnpm.flat-cache@4.0.1.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "client.node_modules..pnpm.flat-cache@4.0.1.node_modules.flatted.python.flatted",
+        "description": "client.node_modules..pnpm.flat-cache@4.0.1.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "client.node_modules..pnpm.flat-cache@4.0.1.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "client.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "description": "client.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i",
+        "detail": "client.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "client.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "description": "client.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i\ndef _object_keys(value):\n    for key in value:\n        yield key\ndef _is_array(value):",
+        "detail": "client.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "client.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "description": "client.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "client.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "client.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "description": "client.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "client.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "client.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "description": "client.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i",
+        "detail": "client.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "client.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "description": "client.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i\ndef _object_keys(value):\n    for key in value:\n        yield key\ndef _is_array(value):",
+        "detail": "client.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "client.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "description": "client.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "client.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "client.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "description": "client.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "client.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "server..venv.bin.activate_this",
+        "description": "server..venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"server\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "server..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "server..venv.bin.activate_this",
+        "description": "server..venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"server\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": "server..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "server..venv.bin.activate_this",
+        "description": "server..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"server\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "server..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "server..venv.bin.activate_this",
+        "description": "server..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"server\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "server..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": "server..venv.bin.activate_this",
+        "description": "server..venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"server\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "server..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "server..venv.bin.activate_this",
+        "description": "server..venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "server..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "server..venv.bin.activate_this",
+        "description": "server..venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "server..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "server..venv.bin.activate_this",
+        "description": "server..venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "server..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "server..venv.bin.activate_this",
+        "description": "server..venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "server..venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "server..venv.bin.jp",
+        "description": "server..venv.bin.jp",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser()\n    parser.add_argument('expression')\n    parser.add_argument('-f', '--filename',\n                        help=('The filename containing the input data.  '\n                              'If a filename is not given then data is '\n                              'read from stdin.'))\n    parser.add_argument('--ast', action='store_true',\n                        help=('Pretty print the AST, do not search the data.'))\n    args = parser.parse_args()",
+        "detail": "server..venv.bin.jp",
+        "documentation": {}
+    },
+    {
+        "label": "BaseRepository",
+        "kind": 6,
+        "importPath": "server.src.core.base_repo",
+        "description": "server.src.core.base_repo",
+        "peekOfCode": "class BaseRepository:\n    model = None\n    def __init__(self, session: Session):\n        self.session = session\n    def create(self, instance):\n        try:\n            self.session.add(instance)\n            self.session.commit()\n            self.session.refresh(instance)\n            return instance",
+        "detail": "server.src.core.base_repo",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "kind": 6,
+        "importPath": "server.src.core.config",
+        "description": "server.src.core.config",
+        "peekOfCode": "class Config:\n    DATABASE_URL = config(\"DATABASE_URL\")\n    AWS_ACCESS_KEY_ID = config(\"AWS_ACCESS_KEY_ID\")\n    AWS_SECRET_ACCESS_KEY = config(\"AWS_SECRET_ACCESS_KEY\")\n    AWS_REGION = config(\"AWS_REGION\")\n    AWS_BUCKET_NAME = config(\"AWS_BUCKET_NAME\")\n    ENDPOINT_URL = config(\"ENDPOINT_URL\")\n    OPENROUTER_API_KEY = config(\"OPENROUTER_API_KEY\")\n    OPENROUTER_BASE_URL = config(\n        \"OPENROUTER_BASE_URL\",",
+        "detail": "server.src.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "server.src.core.database",
+        "description": "server.src.core.database",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n# Base\nBase = declarative_base()",
+        "detail": "server.src.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URL",
+        "kind": 5,
+        "importPath": "server.src.core.database",
+        "description": "server.src.core.database",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = Config.DATABASE_URL\n# create engine and pass db_url\nengine = create_engine(SQLALCHEMY_DATABASE_URL, echo=True)\n# Session\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:",
+        "detail": "server.src.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "server.src.core.database",
+        "description": "server.src.core.database",
+        "peekOfCode": "engine = create_engine(SQLALCHEMY_DATABASE_URL, echo=True)\n# Session\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n# Base",
+        "detail": "server.src.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "server.src.core.database",
+        "description": "server.src.core.database",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n# Base\nBase = declarative_base()",
+        "detail": "server.src.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "server.src.core.database",
+        "description": "server.src.core.database",
+        "peekOfCode": "Base = declarative_base()",
+        "detail": "server.src.core.database",
+        "documentation": {}
+    },
+    {
+        "label": "LambdaHelper",
+        "kind": 6,
+        "importPath": "server.src.helpers.lambda_func",
+        "description": "server.src.helpers.lambda_func",
+        "peekOfCode": "class LambdaHelper:\n    def __init__(self):\n        self.client = boto3.client(\n            \"lambda\",\n            region_name=Config.AWS_REGION,\n        )\n    def trigger_summary(self, document_id: str):\n        logger.info(\n            f\"Triggering AI summary Lambda. document_id={document_id}\",\n        )",
+        "detail": "server.src.helpers.lambda_func",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "server.src.helpers.lambda_func",
+        "description": "server.src.helpers.lambda_func",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass LambdaHelper:\n    def __init__(self):\n        self.client = boto3.client(\n            \"lambda\",\n            region_name=Config.AWS_REGION,\n        )\n    def trigger_summary(self, document_id: str):\n        logger.info(\n            f\"Triggering AI summary Lambda. document_id={document_id}\",",
+        "detail": "server.src.helpers.lambda_func",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_helper",
+        "kind": 5,
+        "importPath": "server.src.helpers.lambda_func",
+        "description": "server.src.helpers.lambda_func",
+        "peekOfCode": "lambda_helper = LambdaHelper()",
+        "detail": "server.src.helpers.lambda_func",
+        "documentation": {}
+    },
+    {
+        "label": "LLMHelper",
+        "kind": 6,
+        "importPath": "server.src.helpers.llm",
+        "description": "server.src.helpers.llm",
+        "peekOfCode": "class LLMHelper:\n    def __init__(self):\n        self.client = OpenAI(\n            api_key=Config.OPENROUTER_API_KEY,\n            base_url=Config.OPENROUTER_BASE_URL,\n        )\n        self.model = Config.OPENROUTER_MODEL\n    def generate_summary(\n        self,\n        text: str,",
+        "detail": "server.src.helpers.llm",
+        "documentation": {}
+    },
+    {
+        "label": "llm_helper",
+        "kind": 5,
+        "importPath": "server.src.helpers.llm",
+        "description": "server.src.helpers.llm",
+        "peekOfCode": "llm_helper = LLMHelper()",
+        "detail": "server.src.helpers.llm",
+        "documentation": {}
+    },
+    {
+        "label": "S3Helper",
+        "kind": 6,
+        "importPath": "server.src.helpers.s3",
+        "description": "server.src.helpers.s3",
+        "peekOfCode": "class S3Helper:\n    def __init__(self):\n        self.client = boto3.client(\n            \"s3\",\n            endpoint_url=Config.ENDPOINT_URL,\n            region_name=Config.AWS_REGION,\n            aws_access_key_id=Config.AWS_ACCESS_KEY_ID,\n            aws_secret_access_key=Config.AWS_SECRET_ACCESS_KEY,\n        )\n    def upload_file(self, file, filename: str) -> str:",
+        "detail": "server.src.helpers.s3",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "server.src.helpers.s3",
+        "description": "server.src.helpers.s3",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass S3Helper:\n    def __init__(self):\n        self.client = boto3.client(\n            \"s3\",\n            endpoint_url=Config.ENDPOINT_URL,\n            region_name=Config.AWS_REGION,\n            aws_access_key_id=Config.AWS_ACCESS_KEY_ID,\n            aws_secret_access_key=Config.AWS_SECRET_ACCESS_KEY,\n        )",
+        "detail": "server.src.helpers.s3",
+        "documentation": {}
+    },
+    {
+        "label": "s3_helper",
+        "kind": 5,
+        "importPath": "server.src.helpers.s3",
+        "description": "server.src.helpers.s3",
+        "peekOfCode": "s3_helper = S3Helper()",
+        "detail": "server.src.helpers.s3",
+        "documentation": {}
+    },
+    {
+        "label": "get_document_repository",
+        "kind": 2,
+        "importPath": "server.src.routers.ai_summary.dependencies",
+        "description": "server.src.routers.ai_summary.dependencies",
+        "peekOfCode": "def get_document_repository(\n    db: Session = Depends(get_db),\n):\n    return DocumentRepository(db)\ndef get_ai_service(\n    repository: DocumentRepository = Depends(get_document_repository),\n):\n    return AIService(repository)",
+        "detail": "server.src.routers.ai_summary.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_ai_service",
+        "kind": 2,
+        "importPath": "server.src.routers.ai_summary.dependencies",
+        "description": "server.src.routers.ai_summary.dependencies",
+        "peekOfCode": "def get_ai_service(\n    repository: DocumentRepository = Depends(get_document_repository),\n):\n    return AIService(repository)",
+        "detail": "server.src.routers.ai_summary.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "lambda_handler",
+        "kind": 2,
+        "importPath": "server.src.routers.ai_summary.handler",
+        "description": "server.src.routers.ai_summary.handler",
+        "peekOfCode": "def lambda_handler(event, context):\n    db = SessionLocal()\n    try:\n        record = event[\"Records\"][0]\n        s3_key = record[\"s3\"][\"object\"][\"key\"]\n        repository = DocumentRepository(db)\n        service = AIService(repository)\n        service.process_document(s3_key)\n        return {\n            \"statusCode\": 200,",
+        "detail": "server.src.routers.ai_summary.handler",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "server.src.routers.ai_summary.handler",
+        "description": "server.src.routers.ai_summary.handler",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef lambda_handler(event, context):\n    db = SessionLocal()\n    try:\n        record = event[\"Records\"][0]\n        s3_key = record[\"s3\"][\"object\"][\"key\"]\n        repository = DocumentRepository(db)\n        service = AIService(repository)\n        service.process_document(s3_key)\n        return {",
+        "detail": "server.src.routers.ai_summary.handler",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentRepository",
+        "kind": 6,
+        "importPath": "server.src.routers.ai_summary.repository",
+        "description": "server.src.routers.ai_summary.repository",
+        "peekOfCode": "class DocumentRepository(BaseRepository):\n    model = Document\n    def get_document(self, document_id: UUID) -> Document:\n        return self.get_by_id(document_id)\n    def get_by_s3_key(\n        self,\n        s3_key: str,\n    ) -> Document:\n        document = (\n            self.session.query(self.model).filter(self.model.s3_key == s3_key).first()",
+        "detail": "server.src.routers.ai_summary.repository",
+        "documentation": {}
+    },
+    {
+        "label": "summarize_document",
+        "kind": 2,
+        "importPath": "server.src.routers.ai_summary.route",
+        "description": "server.src.routers.ai_summary.route",
+        "peekOfCode": "def summarize_document(\n    request: SummaryRequest,\n    background_tasks: BackgroundTasks,\n    service: AIService = Depends(get_ai_service),\n):\n    background_tasks.add_task(\n        service.process_document,\n        request.document_id,\n    )\n    return {",
+        "detail": "server.src.routers.ai_summary.route",
+        "documentation": {}
+    },
+    {
+        "label": "summary_router",
+        "kind": 5,
+        "importPath": "server.src.routers.ai_summary.route",
+        "description": "server.src.routers.ai_summary.route",
+        "peekOfCode": "summary_router = APIRouter(\n    prefix=\"/summarize\",\n    tags=[\"AI Summary\"],\n)\n@summary_router.post(\n    \"\",\n    status_code=status.HTTP_202_ACCEPTED,\n)\ndef summarize_document(\n    request: SummaryRequest,",
+        "detail": "server.src.routers.ai_summary.route",
+        "documentation": {}
+    },
+    {
+        "label": "SummaryRequest",
+        "kind": 6,
+        "importPath": "server.src.routers.ai_summary.schema",
+        "description": "server.src.routers.ai_summary.schema",
+        "peekOfCode": "class SummaryRequest(BaseModel):\n    document_id: UUID\n    s3_key: str",
+        "detail": "server.src.routers.ai_summary.schema",
+        "documentation": {}
+    },
+    {
+        "label": "AIService",
+        "kind": 6,
+        "importPath": "server.src.routers.ai_summary.service",
+        "description": "server.src.routers.ai_summary.service",
+        "peekOfCode": "class AIService:\n    def __init__(self, repository: DocumentRepository):\n        self.repository = repository\n    def process_document(\n        self,\n        s3_key: str,\n    ):\n        logger.info(\n            \"Starting document summarization. s3_key=%s\",\n            s3_key,",
+        "detail": "server.src.routers.ai_summary.service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "server.src.routers.ai_summary.service",
+        "description": "server.src.routers.ai_summary.service",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass AIService:\n    def __init__(self, repository: DocumentRepository):\n        self.repository = repository\n    def process_document(\n        self,\n        s3_key: str,\n    ):\n        logger.info(\n            \"Starting document summarization. s3_key=%s\",",
+        "detail": "server.src.routers.ai_summary.service",
+        "documentation": {}
+    },
+    {
+        "label": "get_document_repository",
+        "kind": 2,
+        "importPath": "server.src.routers.document_upload.dependencies",
+        "description": "server.src.routers.document_upload.dependencies",
+        "peekOfCode": "def get_document_repository(\n    db: Session = Depends(get_db),\n) -> DocumentRepository:\n    return DocumentRepository(db)\ndef get_document_service(\n    repository: DocumentRepository = Depends(get_document_repository),\n) -> DocumentService:\n    return DocumentService(repository)",
+        "detail": "server.src.routers.document_upload.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_document_service",
+        "kind": 2,
+        "importPath": "server.src.routers.document_upload.dependencies",
+        "description": "server.src.routers.document_upload.dependencies",
+        "peekOfCode": "def get_document_service(\n    repository: DocumentRepository = Depends(get_document_repository),\n) -> DocumentService:\n    return DocumentService(repository)",
+        "detail": "server.src.routers.document_upload.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "kind": 6,
+        "importPath": "server.src.routers.document_upload.model",
+        "description": "server.src.routers.document_upload.model",
+        "peekOfCode": "class Document(Base):\n    __tablename__ = \"documents\"\n    id = Column(\n        UUID(as_uuid=True),\n        primary_key=True,\n        default=uuid4,\n        nullable=False,\n    )\n    filename = Column(\n        String(255),",
+        "detail": "server.src.routers.document_upload.model",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentRepository",
+        "kind": 6,
+        "importPath": "server.src.routers.document_upload.repository",
+        "description": "server.src.routers.document_upload.repository",
+        "peekOfCode": "class DocumentRepository(BaseRepository):\n    model = Document\n    def __init__(self, session):\n        super().__init__(session)\n    def create_document(\n        self,\n        filename: str,\n        s3_key: str,\n        s3_url: str,\n    ) -> Document:",
+        "detail": "server.src.routers.document_upload.repository",
+        "documentation": {}
+    },
+    {
+        "label": "upload_document",
+        "kind": 2,
+        "importPath": "server.src.routers.document_upload.route",
+        "description": "server.src.routers.document_upload.route",
+        "peekOfCode": "def upload_document(\n    file: UploadFile = File(...),\n    service: DocumentService = Depends(get_document_service),\n):\n    return service.upload_document(file)\n@document_router.get(\n    \"\",\n    response_model=list[DocumentResponse],\n)\ndef get_documents(",
+        "detail": "server.src.routers.document_upload.route",
+        "documentation": {}
+    },
+    {
+        "label": "get_documents",
+        "kind": 2,
+        "importPath": "server.src.routers.document_upload.route",
+        "description": "server.src.routers.document_upload.route",
+        "peekOfCode": "def get_documents(\n    service: DocumentService = Depends(get_document_service),\n):\n    return service.get_documents()\n@document_router.get(\n    \"/{document_id}\",\n    response_model=DocumentResponse,\n)\ndef get_document(\n    document_id: UUID,",
+        "detail": "server.src.routers.document_upload.route",
+        "documentation": {}
+    },
+    {
+        "label": "get_document",
+        "kind": 2,
+        "importPath": "server.src.routers.document_upload.route",
+        "description": "server.src.routers.document_upload.route",
+        "peekOfCode": "def get_document(\n    document_id: UUID,\n    service: DocumentService = Depends(get_document_service),\n):\n    return service.get_document(document_id)\n@document_router.delete(\n    \"/{document_id}\",\n)\ndef delete_document(\n    document_id: UUID,",
+        "detail": "server.src.routers.document_upload.route",
+        "documentation": {}
+    },
+    {
+        "label": "delete_document",
+        "kind": 2,
+        "importPath": "server.src.routers.document_upload.route",
+        "description": "server.src.routers.document_upload.route",
+        "peekOfCode": "def delete_document(\n    document_id: UUID,\n    service: DocumentService = Depends(get_document_service),\n):\n    return service.delete_document(document_id)",
+        "detail": "server.src.routers.document_upload.route",
+        "documentation": {}
+    },
+    {
+        "label": "document_router",
+        "kind": 5,
+        "importPath": "server.src.routers.document_upload.route",
+        "description": "server.src.routers.document_upload.route",
+        "peekOfCode": "document_router = APIRouter(\n    prefix=\"/documents\",\n    tags=[\"Documents\"],\n)\n@document_router.post(\n    \"/upload\",\n    response_model=UploadDocumentResponse,\n)\ndef upload_document(\n    file: UploadFile = File(...),",
+        "detail": "server.src.routers.document_upload.route",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentResponse",
+        "kind": 6,
+        "importPath": "server.src.routers.document_upload.schema",
+        "description": "server.src.routers.document_upload.schema",
+        "peekOfCode": "class DocumentResponse(BaseModel):\n    id: UUID\n    filename: str\n    s3_key: str\n    s3_url: str\n    status: str\n    summary: str | None\n    created_at: datetime\n    updated_at: datetime\n    model_config = ConfigDict(from_attributes=True)",
+        "detail": "server.src.routers.document_upload.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UploadDocumentResponse",
+        "kind": 6,
+        "importPath": "server.src.routers.document_upload.schema",
+        "description": "server.src.routers.document_upload.schema",
+        "peekOfCode": "class UploadDocumentResponse(BaseModel):\n    message: str\n    document: DocumentResponse\nclass DocumentListResponse(BaseModel):\n    documents: list[DocumentResponse]\nclass DocumentStatus(str, Enum):\n    UPLOADED = \"UPLOADED\"\n    PROCESSING = \"PROCESSING\"\n    COMPLETED = \"COMPLETED\"\n    FAILED = \"FAILED\"",
+        "detail": "server.src.routers.document_upload.schema",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentListResponse",
+        "kind": 6,
+        "importPath": "server.src.routers.document_upload.schema",
+        "description": "server.src.routers.document_upload.schema",
+        "peekOfCode": "class DocumentListResponse(BaseModel):\n    documents: list[DocumentResponse]\nclass DocumentStatus(str, Enum):\n    UPLOADED = \"UPLOADED\"\n    PROCESSING = \"PROCESSING\"\n    COMPLETED = \"COMPLETED\"\n    FAILED = \"FAILED\"",
+        "detail": "server.src.routers.document_upload.schema",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentStatus",
+        "kind": 6,
+        "importPath": "server.src.routers.document_upload.schema",
+        "description": "server.src.routers.document_upload.schema",
+        "peekOfCode": "class DocumentStatus(str, Enum):\n    UPLOADED = \"UPLOADED\"\n    PROCESSING = \"PROCESSING\"\n    COMPLETED = \"COMPLETED\"\n    FAILED = \"FAILED\"",
+        "detail": "server.src.routers.document_upload.schema",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentService",
+        "kind": 6,
+        "importPath": "server.src.routers.document_upload.service",
+        "description": "server.src.routers.document_upload.service",
+        "peekOfCode": "class DocumentService:\n    def __init__(self, repository: DocumentRepository):\n        self.repository = repository\n    def upload_document(self, file: UploadFile):\n        logger.info(\"Uploading document: %s\", file.filename)\n        try:\n            if not file.filename:\n                logger.warning(\"Upload failed: No file provided\")\n                raise HTTPException(\n                    status_code=400,",
+        "detail": "server.src.routers.document_upload.service",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "server.src.routers.document_upload.service",
+        "description": "server.src.routers.document_upload.service",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass DocumentService:\n    def __init__(self, repository: DocumentRepository):\n        self.repository = repository\n    def upload_document(self, file: UploadFile):\n        logger.info(\"Uploading document: %s\", file.filename)\n        try:\n            if not file.filename:\n                logger.warning(\"Upload failed: No file provided\")\n                raise HTTPException(",
+        "detail": "server.src.routers.document_upload.service",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "server.src.routers.router",
+        "description": "server.src.routers.router",
+        "peekOfCode": "def main():\n    return {\"message\": \"Hello from server\"}\n@router_api.get(\"/health\")\ndef health():\n    return {\"message\": \"Server is running healthy\"}",
+        "detail": "server.src.routers.router",
+        "documentation": {}
+    },
+    {
+        "label": "health",
+        "kind": 2,
+        "importPath": "server.src.routers.router",
+        "description": "server.src.routers.router",
+        "peekOfCode": "def health():\n    return {\"message\": \"Server is running healthy\"}",
+        "detail": "server.src.routers.router",
+        "documentation": {}
+    },
+    {
+        "label": "router_api",
+        "kind": 5,
+        "importPath": "server.src.routers.router",
+        "description": "server.src.routers.router",
+        "peekOfCode": "router_api = APIRouter()\nrouter_api.include_router(document_router)\nrouter_api.include_router(summary_router)\n@router_api.get(\"/\")\ndef main():\n    return {\"message\": \"Hello from server\"}\n@router_api.get(\"/health\")\ndef health():\n    return {\"message\": \"Server is running healthy\"}",
+        "detail": "server.src.routers.router",
+        "documentation": {}
+    },
+    {
+        "label": "create_tables",
+        "kind": 2,
+        "importPath": "server.src.utils.init_db",
+        "description": "server.src.utils.init_db",
+        "peekOfCode": "def create_tables():\n    Base.metadata.create_all(bind=engine)",
+        "detail": "server.src.utils.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "server.src.main",
+        "description": "server.src.main",
+        "peekOfCode": "app = FastAPI(lifespan=lifespan, title=\"Ai Summary App Backend\")\norigins = [\n    \"http://172.31.90.81:3000\",\n    \"http://localhost:3000\",\n    \"http://127.0.0.1:3000\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,",
+        "detail": "server.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "origins",
+        "kind": 5,
+        "importPath": "server.src.main",
+        "description": "server.src.main",
+        "peekOfCode": "origins = [\n    \"http://172.31.90.81:3000\",\n    \"http://localhost:3000\",\n    \"http://127.0.0.1:3000\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],",
+        "detail": "server.src.main",
+        "documentation": {}
+    }
+]

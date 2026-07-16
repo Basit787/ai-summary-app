@@ -1,9 +1,12 @@
 from fastapi import APIRouter
-from .documents.route import document_router
+from routers.document_upload.route import document_router
+from routers.ai_summary.route import summary_router
+
 
 router_api = APIRouter()
 
 router_api.include_router(document_router)
+router_api.include_router(summary_router)
 
 
 @router_api.get("/")

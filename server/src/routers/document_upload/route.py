@@ -1,8 +1,8 @@
 from uuid import UUID
+
 from fastapi import APIRouter, Depends, File, UploadFile
-from sqlalchemy.orm import Session
-from core.database import get_db
-from .repository import DocumentRepository
+
+from .dependencies import get_document_service
 from .schema import (
     DocumentResponse,
     UploadDocumentResponse,
@@ -21,10 +21,8 @@ document_router = APIRouter(
 )
 def upload_document(
     file: UploadFile = File(...),
-    db: Session = Depends(get_db),
+    service: DocumentService = Depends(get_document_service),
 ):
-    repository = DocumentRepository(db)
-    service = DocumentService(repository)
     return service.upload_document(file)
 
 
@@ -33,10 +31,8 @@ def upload_document(
     response_model=list[DocumentResponse],
 )
 def get_documents(
-    db: Session = Depends(get_db),
+    service: DocumentService = Depends(get_document_service),
 ):
-    repository = DocumentRepository(db)
-    service = DocumentService(repository)
     return service.get_documents()
 
 
@@ -46,10 +42,8 @@ def get_documents(
 )
 def get_document(
     document_id: UUID,
-    db: Session = Depends(get_db),
+    service: DocumentService = Depends(get_document_service),
 ):
-    repository = DocumentRepository(db)
-    service = DocumentService(repository)
     return service.get_document(document_id)
 
 
@@ -58,9 +52,6 @@ def get_document(
 )
 def delete_document(
     document_id: UUID,
-    db: Session = Depends(get_db),
+    service: DocumentService = Depends(get_document_service),
 ):
-    repository = DocumentRepository(db)
-    service = DocumentService(repository)
-    service.delete_document(document_id)
-    return {"message": "Document deleted successfully."}
+    return service.delete_document(document_id)

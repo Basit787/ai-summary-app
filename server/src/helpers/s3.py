@@ -1,7 +1,12 @@
+import logging
+
 import boto3
 from botocore.exceptions import ClientError
 from fastapi import HTTPException
+
 from core.config import Config
+
+logger = logging.getLogger(__name__)
 
 
 class S3Helper:
@@ -24,11 +29,33 @@ class S3Helper:
                     "ContentType": "text/plain",
                 },
             )
-            return f"https://{Config.AWS_BUCKET_NAME}.s3.{Config.AWS_REGION}.amazonaws.com/{filename}"
+
+            return (
+                f"https://{Config.AWS_BUCKET_NAME}"
+                f".s3.{Config.AWS_REGION}.amazonaws.com/{filename}"
+            )
+
         except ClientError as e:
+            logger.exception("Failed to upload file to S3.")
             raise HTTPException(
                 status_code=500,
                 detail=f"S3 Upload Error: {str(e)}",
+            )
+
+    def download_file(self, filename: str) -> str:
+        try:
+            response = self.client.get_object(
+                Bucket=Config.AWS_BUCKET_NAME,
+                Key=filename,
+            )
+
+            return response["Body"].read().decode("utf-8")
+
+        except ClientError as e:
+            logger.exception("Failed to download file from S3.")
+            raise HTTPException(
+                status_code=500,
+                detail=f"S3 Download Error: {str(e)}",
             )
 
     def delete_file(self, filename: str):
@@ -37,7 +64,9 @@ class S3Helper:
                 Bucket=Config.AWS_BUCKET_NAME,
                 Key=filename,
             )
+
         except ClientError as e:
+            logger.exception("Failed to delete file from S3.")
             raise HTTPException(
                 status_code=500,
                 detail=f"S3 Delete Error: {str(e)}",
@@ -50,6 +79,7 @@ class S3Helper:
                 Key=filename,
             )
             return True
+
         except ClientError:
             return False
 

@@ -6,10 +6,11 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table"
-import UploadTextFileDialog from "./new"
+import UploadTextFileDialog from "./components/new"
 import { useDocuments } from "./api/hook"
-import ViewDocument from "./view"
+import ViewDocument from "./components/view"
 import { ModeToggle } from "@/components/mode-toggle"
+import DeleteDocumentDialog from "./components/delete";
 
 const HomePage = () => {
   const { data = [], isLoading } = useDocuments()
@@ -94,8 +95,9 @@ const HomePage = () => {
                     {new Date(document.updated_at).toLocaleString()}
                   </TableCell>
 
-                  <TableCell className="text-right">
+                  <TableCell className="flex gap-2 items-center justify-end">
                     <ViewDocument document={document} />
+                    <DeleteDocumentDialog id={document.id} />
                   </TableCell>
                 </TableRow>
               ))

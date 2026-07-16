@@ -22,7 +22,7 @@ import {
 } from "@/components/ui/field";
 import { Input } from "@/components/ui/input";
 
-import { useUploadDocument } from "./api/hook";
+import { useUploadDocument } from "../api/hook";
 
 const MAX_FILE_SIZE = 5 * 1024 * 1024
 
