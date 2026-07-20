@@ -48,9 +48,7 @@ class DocumentService:
                 document.id,
                 document.filename,
             )
-            lambda_helper.trigger_summary(
-                str(document.id),
-            )
+
             return {
                 "message": "Document uploaded successfully.",
                 "document": document,

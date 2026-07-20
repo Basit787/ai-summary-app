@@ -1,3 +1,6 @@
+import { ModeToggle } from "#/components/mode-toggle.tsx";
+import { createFileRoute } from "@tanstack/react-router";
+import UploadTextFileDialog from "./lib/components/new";
 import {
   Table,
   TableBody,
@@ -5,16 +8,25 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/components/ui/table"
-import UploadTextFileDialog from "./components/new"
-import { useDocuments } from "./api/hook"
-import ViewDocument from "./components/view"
-import { ModeToggle } from "@/components/mode-toggle"
-import DeleteDocumentDialog from "./components/delete";
+} from "#/components/ui/table.tsx";
+import ViewDocument from "./lib/components/view";
+import DeleteDocumentDialog from "./lib/components/delete";
+import { useDocuments } from "./lib/api/hook";
+import { ThemeProvider } from "#/components/theme-provider.tsx";
 
-const HomePage = () => {
-  const { data = [], isLoading } = useDocuments()
-  console.log("data", data)
+export const Route = createFileRoute("/")({
+  component: () => {
+    return (
+      <ThemeProvider>
+        <Home />
+      </ThemeProvider>
+    );
+  },
+});
+
+function Home() {
+  const { data = [], isLoading } = useDocuments();
+
   return (
     <div className="container mx-auto py-8">
       <div className="mb-6 flex items-center justify-between">
@@ -115,7 +127,5 @@ const HomePage = () => {
         </Table>
       </div>
     </div>
-  )
+  );
 }
-
-export default HomePage
