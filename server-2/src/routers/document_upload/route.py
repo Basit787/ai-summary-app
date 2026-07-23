@@ -9,10 +9,7 @@ from .schema import (
 )
 from .service import DocumentService
 
-document_router = APIRouter(
-    prefix="/documents",
-    tags=["Documents"],
-)
+document_router = APIRouter()
 
 
 @document_router.post(

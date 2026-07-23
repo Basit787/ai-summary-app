@@ -3,6 +3,8 @@ from decouple import config
 
 class Config:
     DATABASE_URL = config("DATABASE_URL")
+    JWT_SECRET = config("JWT_SECRET", default="super_solid_jwt_secret_key")
+    JWT_ALGORITHM = config("JWT_ALGORITHM", default="HS256")
     AWS_ACCESS_KEY_ID = config("AWS_ACCESS_KEY_ID")
     AWS_SECRET_ACCESS_KEY = config("AWS_SECRET_ACCESS_KEY")
     AWS_REGION = config("AWS_REGION")

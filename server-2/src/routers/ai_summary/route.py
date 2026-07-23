@@ -4,10 +4,7 @@ from .dependencies import get_ai_service
 from .schema import SummaryRequest
 from .service import AIService
 
-summary_router = APIRouter(
-    prefix="/summarize",
-    tags=["AI Summary"],
-)
+summary_router = APIRouter()
 
 
 @summary_router.post(
